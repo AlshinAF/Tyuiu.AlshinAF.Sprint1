@@ -1,5 +1,5 @@
 ﻿using Tyuiu.AlshinAF.Sprint1.Task3.V13.Lib;
-namespace Tyuiu.AlshinAF.Sprint1.Task1.V25
+namespace Tyuiu.AlshinAF.Sprint1.Task3.V13
 {
     class Program
     {

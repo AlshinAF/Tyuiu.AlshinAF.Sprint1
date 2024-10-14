@@ -1,5 +1,5 @@
-﻿using Tyuiu.AlshinAF.Sprint1.Task2.V11.Lib;
-namespace Tyuiu.AlshinAF.Sprint1.Task2.V11
+﻿using Tyuiu.AlshinAF.Sprint1.Task4.V23.Lib;
+namespace Tyuiu.AlshinAF.Sprint1.Task4.V23
 {
     class Program
     {
@@ -11,26 +11,26 @@ namespace Tyuiu.AlshinAF.Sprint1.Task2.V11
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема:  Организация ввода/вывода в консольных приложениях                *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #11                                                             *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #23                                                             *");
             Console.WriteLine("* Выполнил: Альшин Артур Фаритович | РППб-24-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
+            Console.WriteLine("* вычисляет результат по формуле и печатает его на экране                 *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
             int x, y;
-            Console.WriteLine("Введите значение часов:");
+            Console.WriteLine("Введите значение X:");
             x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите значение минут:");
+            Console.WriteLine("Введите значение Y:");
             y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.ConvertHoursMinutesToSeconds(x, y));
+            Console.WriteLine(ds.Calculate(x, y));
 
             Console.ReadLine();
         }
