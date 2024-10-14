@@ -30,7 +30,7 @@ namespace Tyuiu.AlshinAF.Sprint1.Task4.V23
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.Calculate(x, y));
+            Console.WriteLine(Math.Round(ds.Calculate(x, y), 2));
 
             Console.ReadLine();
         }
