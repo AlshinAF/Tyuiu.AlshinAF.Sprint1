@@ -6,9 +6,16 @@ namespace Tyuiu.AlshinAF.Sprint1.Task6.V6.Lib
         public string DeleteFirstLetter(string value)
         {
             string[] s = value.Split(' ');
+            string y = "";
             for (int i = 0; i < s.Length; i++)
-                value = s[i].Substring(1) + " ";
-            return value;
+            {
+                value = s[i].Substring(1);
+                y += " " + value;
+                
+
+            }
+            y = y.Substring(1);
+            return y;
         }
     }
 }

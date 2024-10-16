@@ -33,3 +33,4 @@ namespace Tyuiu.AlshinAF.Sprint1.Task6.V6
             Console.ReadKey();
         }
     }
+}
